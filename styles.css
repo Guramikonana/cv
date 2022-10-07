@@ -1,0 +1,214 @@
+/*
+html {
+  background-image: url(photos/background.jpeg) ;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.85;
+  background-attachment: fixed;
+}
+*/
+body {
+  background-color: #FFF5E4;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 150%;
+  color: #30475E;
+}
+
+.middle {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  font-family: 'Inconsolata', monospace;
+}
+
+.skillrow {
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.bottom {
+  font-family: 'Inconsolata', monospace;
+  margin-top: 30px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.footer {
+  border-left: 0px;
+}
+.middhr {
+  color: #400D51;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  width: 10%;
+  color: #AEBDCA;
+  border-width: 7px;
+}
+
+#hrbottom {
+  border: none;
+  border-top: solid;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 100%;
+  color: #AEBDCA;
+}
+
+.htmlimg {
+  width: 20%;
+  margin-right: 3px;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.css {
+  width: 20%;
+  float: right;
+  margin-left: 30px
+}
+
+.java {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.zap {
+  position: absolute;
+  width: 25%;
+  right: 4%;
+  top: 100%;
+}
+
+.zap:hover {
+  opacity: 0.4;
+}
+
+h1 {
+  /* IDEA:
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Passions Conflict', cursive;
+   */
+  font-family: 'Silkscreen', cursive;
+  margin-top: 100px;
+  font-size: 625%;
+  display: inline-block;
+  color: #2D4059;
+}
+
+/* IDEA: 85586F */
+#skills {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 40px;
+  font-family: 'Silkscreen', cursive;
+  /* IDEA:
+  color: #FF847C;
+  */
+  color: #400D51;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+
+}
+
+#p1 {
+  font-size: 125%;
+}
+
+.span1 {
+  color: #CC3636;
+}
+
+#p2 {
+  padding: 20px;
+}
+
+#p3 {
+  margin-left: 40px;
+}
+
+#getintouch {
+  color: #400D51;
+  font-size: 25px;
+}
+
+.boom1 {
+  position: absolute;
+  width: 15%;
+  left: 74%;
+  top: -5%;
+}
+
+.wow {
+  position: absolute;
+  width: 15%;
+  left: 19%;
+  top: 40%;
+}
+
+.mountain {
+  width: 1000px;
+  position: relative;
+  height: 400px;
+  right: 0px;
+}
+
+.myphoto {
+  width: 25%;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.footertext {
+  margin-left: 10px;
+  font-family: 'Inconsolata', monospace;
+  text-decoration: none;
+  color: #142F43;
+}
+.footertext:hover {
+  text-decoration: underline;
+  color: #AE431E;
+}
+
+.copywrite {
+  font-size: 0.75rem;
+  margin-bottom: 0px;
+}
+.btn {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  -webkit-box-shadow: 5px 8px 9px #666666;
+  -moz-box-shadow: 5px 8px 9px #666666;
+  box-shadow: 5px 8px 9px #666666;
+  font-family: 'Inconsolata', monospace;;
+  color: #ffffff;
+  font-size: 14px;
+  background: #3E8E7E;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position:relative;
+  top: 8px;
+}
+
+.btn:hover {
+  background: #7CD1B8;
+  text-decoration: none;
+}
